@@ -37,7 +37,7 @@ for (iii in i07) {
 glue('The answer to Part 1 is {a_}') %>% 
   print()
 
-## Part 1
+## Part 2
 i07[1] <- glue("{a_} -> b_")
 for (iii in i07) {
   eval(parse(text=iii))
