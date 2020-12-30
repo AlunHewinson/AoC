@@ -75,4 +75,4 @@ glue('The answer to Part 2 is {sum(i)}') %>%
   print()
 
 ## pretty!
-image(i)
+image(i, col = c("#000000", rgb(1, seq(0, 1, length.out=50), seq(0, 1, length.out=50))))
