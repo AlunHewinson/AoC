@@ -5,7 +5,7 @@ library(magrittr)
 library(tidyverse)
 library(glue)
 
-i08 <- readLines("2015/inputs/i08.txt", warn = FALSE, )
+i08 <- readLines("2015/inputs/i08.txt", warn = FALSE)
 
 ## Part 1
 i08a <- i08 %>%
