@@ -4,8 +4,6 @@
 library(magrittr)
 library(tidyverse)
 library(glue)
-library(digest)
-library(future)
 
 i07 <- readLines("2015/inputs/i07.txt", warn = FALSE)
 
